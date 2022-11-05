@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+background-image: url("/ceu-noturno-vibrante-com-estrelas-nebulosa-e-galaxia_146671-19198.jpg");
+}   
+
+.perfil{
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 100vh;
+
+
+}
+
+
+#imgPerfil{
+    display: block;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+#NamePerfil{
+    display: block;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 350px;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+    background: #828282;  
+    color: rgb(55, 31, 194);  
+   
+}
+
+#MaisInfo{
+
+    display: block;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    font-size: 25px;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    border-top: 10px solid blue;
+    background-color: #828282;
+    border-radius: 20px;
+
+}
+
+
+
+#INFO{
+    display: block;
+    position: absolute;
+    top: 28%;
+    left: 40%;
+    font-size: 28px;
+    list-style-type: none;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+
+
+
+#Usename{
+    display: block;
+    position: absolute;
+    top: 28%;
+    left: 60%;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#Cidade{
+    display: block;
+    position: absolute;
+    top: 34.50%;
+    left: 60%;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#Idade{
+    display: block;
+    position: absolute;
+    top: 41%;
+    left: 60%;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#Email{
+    display: block;
+    position: absolute;
+    top: 48%;
+    left: 60%;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#Telefone{
+    display: block;
+    position: absolute;
+    top: 54.50%;
+    left: 60%;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+#Sexo{
+    display: block;
+    position: absolute;
+    top: 61%;
+    left: 60%;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+
