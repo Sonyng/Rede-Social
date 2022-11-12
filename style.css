@@ -59,7 +59,7 @@ main {
   position: relative;
   justify-content: center;
   align-items: center;
-  background: url("ceu-noturno-vibrante-com-estrelas-nebulosa-e-galaxia_146671-19198.jpg") no-repeat center center;
+  background: url("IMG/ceu-noturno-vibrante-com-estrelas-nebulosa-e-galaxia_146671-19198.jpg") no-repeat center center;
   background-size: cover;
   height: 92vh;
   box-sizing: border-box;
@@ -222,7 +222,6 @@ button.like path {
   }
 }
 
-
 #CONTEUDO{
   display: block;
   position: absolute;
@@ -232,3 +231,36 @@ button.like path {
   font-weight: bold;
 
 }
+
+#star1{
+  display: block;
+  position: absolute;
+  left: 38%;
+  top: 11%;
+
+}
+
+#star2{
+  display: block;
+  position: absolute;
+  left: 38%;
+  top: 83%;
+
+}
+
+
+#star3{
+  display: block;
+  position: absolute;
+  left: 60.5%;
+  top: 10.5%;
+
+}
+
+#star4{
+  display: block;
+  position: absolute;
+  left: 60.5%;
+  top: 83%;
+}
+

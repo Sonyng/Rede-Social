@@ -11,7 +11,7 @@ body{
     align-items: center;
     height: 100vh;
     width: 100vw;
-background-image: url("/ceu-noturno-vibrante-com-estrelas-nebulosa-e-galaxia_146671-19198.jpg");
+    background-image: url("ceu-noturno-vibrante-com-estrelas-nebulosa-e-galaxia_146671-19198.jpg");
 }   
 
 .perfil{
@@ -30,12 +30,13 @@ background-image: url("/ceu-noturno-vibrante-com-estrelas-nebulosa-e-galaxia_146
 #imgPerfil{
     display: block;
     position: absolute;
-    top: 10%;
+    top: 8%;
     left: 5%;
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
     box-sizing: border-box;
+    background-color: #828282;
 }
 
 #NamePerfil{
@@ -70,8 +71,6 @@ background-image: url("/ceu-noturno-vibrante-com-estrelas-nebulosa-e-galaxia_146
 
 }
 
-
-
 #INFO{
     display: block;
     position: absolute;
@@ -83,9 +82,6 @@ background-image: url("/ceu-noturno-vibrante-com-estrelas-nebulosa-e-galaxia_146
 
 
 }
-
-
-
 
 #Usename{
     display: block;
@@ -146,7 +142,15 @@ background-image: url("/ceu-noturno-vibrante-com-estrelas-nebulosa-e-galaxia_146
     font-size: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
-
 }
 
+#logo{
+    display: block;
+    position: absolute;
+    top: 2%;
+    left: 1%;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
 
+}
